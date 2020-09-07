@@ -1,0 +1,30 @@
+
+.banner {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+
+  &__info {
+    padding: 20px;
+    display: flex;
+    background-color: rgba(34, 34, 34, 0.76);
+    color: #ffffff;
+    width: 100%;
+    align-items: center;
+
+    .btn {
+      margin-left: auto;
+    }
+  }
+
+  &__title {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+  &__text {
+    max-width: 40%;
+  }
+}

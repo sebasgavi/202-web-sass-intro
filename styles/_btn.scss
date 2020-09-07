@@ -1,0 +1,27 @@
+@mixin btnModifier($bg, $color: #ffffff) {
+  background-color: $bg;
+  color: $color;
+  
+  &:hover {
+    background-color: darken($bg, 6%);
+  }
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: .6rem .8rem;
+  border: 0;
+  @include btnModifier(rgb(21, 89, 199));
+
+  &--secondary {
+    @include btnModifier(rgb(231, 115, 6));
+  }
+
+  &--success {
+    @include btnModifier(rgb(19, 170, 19));
+  }
+
+  &--error {
+    @include btnModifier(rgb(251, 45, 9));
+  }
+}

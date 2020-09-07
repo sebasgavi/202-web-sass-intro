@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@400;700&display=swap");
+
+// Colors
+$primary-color: #d60000;
+
+$normal-spacing: 16px;
+$font: "Kufam", cursive;
+$shadow: 4px 2px 10px rgba(0, 0, 0, 0.4);
+
+@import 'reset';
+@import 'general';
+@import 'project';
+@import 'banner';
+@import 'btn';
