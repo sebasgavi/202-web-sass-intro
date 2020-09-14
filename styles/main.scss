@@ -2,6 +2,7 @@
 
 // Colors
 $primary-color: #d60000;
+$blue: rgb(21, 89, 199);
 
 $normal-spacing: 16px;
 $font: "Kufam", cursive;
@@ -12,3 +13,53 @@ $shadow: 4px 2px 10px rgba(0, 0, 0, 0.4);
 @import 'project';
 @import 'banner';
 @import 'btn';
+
+.row {
+  display: flex;
+  justify-content: center;
+
+  &__col {
+    padding: 20px;
+    
+    &--2 {
+      width: 50%;
+    }
+
+    &--3 {
+      width: 33.3%;
+    }
+
+    &--5 {
+      width: 20%;
+    }
+  }
+}
+
+.sec-item {
+  text-align: center;
+
+  &__img {
+    width: 200px;
+
+    &--wide {
+      width: 100%;
+    }
+  }
+}
+
+
+.interaction {
+
+  &__title {
+    transition: all 1s ease;
+    opacity: 1;
+
+    &--appear {
+      opacity: 1;
+    }
+
+    &--blue {
+      color: $blue;
+    }
+  }
+}

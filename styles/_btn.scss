@@ -11,7 +11,7 @@
   font-size: 1.2rem;
   padding: .6rem .8rem;
   border: 0;
-  @include btnModifier(rgb(21, 89, 199));
+  @include btnModifier($blue);
 
   &--secondary {
     @include btnModifier(rgb(231, 115, 6));

@@ -387,4 +387,55 @@ body {
 .btn--error:hover {
   background-color: #e22504;
 }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row__col {
+  padding: 20px;
+}
+
+.row__col--2 {
+  width: 50%;
+}
+
+.row__col--3 {
+  width: 33.3%;
+}
+
+.row__col--5 {
+  width: 20%;
+}
+
+.sec-item {
+  text-align: center;
+}
+
+.sec-item__img {
+  width: 200px;
+}
+
+.sec-item__img--wide {
+  width: 100%;
+}
+
+.interaction__title {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  opacity: 1;
+}
+
+.interaction__title--appear {
+  opacity: 1;
+}
+
+.interaction__title--blue {
+  color: #1559c7;
+}
 /*# sourceMappingURL=main.css.map */
